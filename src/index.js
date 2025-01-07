@@ -11,14 +11,14 @@ const routes = {
   "docker.6v.ee": dockerHub,
   "quay.6v.ee": "https://quay.io",
   "gcr.6v.ee": "https://gcr.io",
-  "k8s-gcr.6v.eec": "https://k8s.gcr.io",
+  "k8s-gcr.6v.ee": "https://k8s.gcr.io",
   "k8s.6v.ee" : "https://registry.k8s.io",
   "ghcr.6v.ee": "https://ghcr.io",
   "cloudsmith.6v.ee": "https://docker.cloudsmith.io",
   "ecr.6v.ee": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.76n.cc": dockerHub,
+  "docker-staging.6v.ee": dockerHub,
 };
 
 function routeByHosts(host) {
