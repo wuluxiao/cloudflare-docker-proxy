@@ -7,7 +7,7 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "76n.cc"
+CUSTOM_DOMAIN = "6v.ee"
 
 [env.dev.vars]
 MODE = "debug"
@@ -16,13 +16,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.76n.cc", custom_domain = true },
-#   { pattern = "quay.76n.cc", custom_domain = true },
-#   { pattern = "gcr.76n.cc", custom_domain = true },
-#   { pattern = "k8s-gcr.76n.cc", custom_domain = true },
-#   { pattern = "k8s.76n.cc", custom_domain = true },
-#   { pattern = "ghcr.76n.cc", custom_domain = true },
-#   { pattern = "cloudsmith.76n.cco", custom_domain = true },
+#   { pattern = "docker.6v.ee", custom_domain = true },
+#   { pattern = "quay.6v.ee", custom_domain = true },
+#   { pattern = "gcr.6v.ee", custom_domain = true },
+#   { pattern = "k8s-gcr.6v.ee", custom_domain = true },
+#   { pattern = "k8s.6v.ee", custom_domain = true },
+#   { pattern = "ghcr.6v.ee", custom_domain = true },
+#   { pattern = "cloudsmith.6v.ee", custom_domain = true },
 # ]
 
 [env.production.vars]
